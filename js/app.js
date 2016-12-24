@@ -84,7 +84,7 @@ $(document).ready(function(){
 			$(this).jPlayer("setMedia", listBgMusic[ranBgNew]).jPlayer("play");
 		},
         cssSelectorAncestor: "",		
-        swfPath: "lib/jplayer/jquery.jplayer.swf",
+        swfPath: "../lib/jplayer/jquery.jplayer.swf",
         supplied: "m4a,oga,mp3",
 		preload: "auto",
 		volume: 1
@@ -113,7 +113,7 @@ $(document).ready(function(){
 	
 	$(".SLToday").html("Hôm nay: " + vnCurrentTime.format("DD-MM-YYYY") + " <i class='fa fa-calendar'></i> " + ld.day + "-" + ld.month + "-" + ld.year + ", " + getYearCanChi(ld.year));
 	
-	var monkeyCD = ["images/mcd.png", "images/mcd2.png", "images/mcd3.png", "images/mcd4.png"];
+	var monkeyCD = ["../images/mcd.png", "../images/mcd2.png", "../images/mcd3.png", "../images/mcd4.png"];
 	var textCD = [
 		"Thế Thái Kính chúc bạn cùng gia đình tràn đầy sức khỏe, thành công và hạnh phúc.",
 		"Năm mới Tết đến. Rước hên vào nhà. Quà cáp bao la. Mọi nhà no đủ. Vàng bạc đầy hũ. Gia chủ phát tài. Già trẻ gái trai. Sum vầy hạnh phúc. Cầu tài chúc phúc. Lộc đến quanh năm. An khang thịnh vượng!",
