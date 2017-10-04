@@ -31,7 +31,7 @@ var Mi = {
             self.mobileDetector();
             self.backgrounds();
             self.scroller();
-            self.masonry();
+//            self.masonry();
             self.ajaxLoader();
             self.mobileNav();
             self.map();
@@ -530,7 +530,6 @@ var Mi = {
 };
 
 $(document).ready(function (){
-
     Mi.init();
 
 });
